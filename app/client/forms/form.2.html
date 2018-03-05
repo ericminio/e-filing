@@ -107,7 +107,7 @@
                     <a id="home" href="/index.html">Home</a>
                 </li>
                 <li>
-                    <a href="#">Form 2</a>
+                    <a href="#">Notice of Appearance (Form 2)</a>
                 </li>
             </ol>
         </div>
@@ -131,9 +131,23 @@
                 </div>
 
                 <div class="form-section">
-                        <h2>Appeal case information</h2>
-                        Find the appeal case you want to link this notice to.
-    
+                  <h2 style="font-weight:bold;">When Do You Use the Notice of Appearance (Form 2)?</h2>
+                  <p>
+                    If you have been served a Notice of Appeal (Form 7), and you want to respond,
+                    fill out the Notice of Appearance (Form 2).
+                    If you do not respond, you will not be included in future court proceedings related to this case,
+                    and will not have access to the case documents filed.
+                  </p>
+                  <p>
+                    You have <span style="font-weight:bold;">10 days</span> to serve a filed copy of the Notice of Appearance
+                    to the appellant, after receiving a Notice of Appeal.
+                  </p>
+                </div>
+
+                <div class="form-section">
+                        <h2 style="font-weight:bold;">Appeal Case Information</h2>
+                        Enter the Court of Appeal number you want to respond to:
+
                         <table>
                             <tr>
                                 <td>LEVEL OF COURT</td>
@@ -148,56 +162,64 @@
                                 </td>
                             </tr>
                         </table>
-                
+
                 </div>
 
                 <div class="form-section">
-                    <h2>Style of proceding (parties) in case 20160430</h2>
+                    <h2 style="font-weight:bold;">Style of Proceeding (Parties) in Case 20160430</h2>
 
-                    <table id="parties">
+                    <table>
                         <tr>
-                            <td>BETWEEN:</td>
+                            <td style="font-weight:bold;">BETWEEN:</td>
+                            <td>Jason Dent by way of their litigation guardian, Maria Terresa Dent</td>
+                            <td style="font-weight:bold; padding-left:70px;">Appellant</td>
                         </tr>
                         <tr>
-                            <td>Jason Dent by way of their litigation guardian, Maria Terresa Dent </td>
-                            <td class="role">Appellant</td>
-                        </tr>
-                        <tr>
-                            <td>AND:</td>
-                        </tr>
-                        <tr>
+                            <td style="font-weight:bold;">AND:</td>
                             <td>Bob Jones</td>
-                            <td class="role">Respondent</td>
+                            <td style="font-weight:bold; padding-left:70px;">Respondent</td>
                         </tr>
-                    </table>                    
+                    </table>
                 </div>
 
-
+                <a name="3"></a>
                 <div class="form-section">
-                    <h2>Enter an appearance on behalf of</h2>
+                    <h2 style="font-weight:bold;">Enter an Appearance (on Behalf of)</h2>
 
-                    Respondent's name:
-                    <select>
-                        <option>Bob Jones</option>
-                    </select>
-                    (who is responding to the notice of appeal)
+                    <table>
+                      <tr>
+                        <td><span style="color:red">*</span> Respondent's name:</td>
+                        <td>
+                          <select>
+                              <option>Bob Jones</option>
+                          </select>
+                        </td>
+                        <td style="color:gray">Who is responding to the Notice of Appeal?<td>
+                      </tr>
+                      <tr>
+                        <td><span style="color:red">*</span> Respondent's mail address for service:</td>
+                        <td>
+                          <input size="40" style="background-color:lightyellow;" name="respondent-address" value="123 Harbour street, Victoria, BC"/>
+                        </td>
+                        <td style="color:gray">Where would you like to receive documents related to this case?<td>
+                      </tr>
+                      <tr>
+                        <td><span style="color:red">*</span> Respondent's e-mail:</td>
+                        <td><input name="respondent-email"/></td>
+                      </tr>
+                      <tr>
+                        <td><span style="color:red">*</span> Respondent's phone:</td>
+                        <td><input name="respondent-phone"/></td>
+                      </tr>
+                      <tr>
+                        <td><span style="color:red">*</span> Respondent name (or Solicitor name):</td>
+                        <td>
+                            <input name="respondent-solicitor"/>
+                        </td>
+                        <td style="color:gray">Who is filing this Notice of Appearance?<td>
+                      </tr>
+                    </table>
 
-                    <br/>
-                    Respondent's mail address:
-                    <input size="40" style="background-color:lightyellow;" name="respondent-address" value="123 Harbour street, Victoria, BC"/>
-                    (where you would like to receive documents)
-
-                    <br/>
-                    Respondent's e-mail:
-                    <input name="respondent-e-mail"/>
-
-                    <br/>
-                    Respondent's phone:
-                    <input name="respondent-phone"/>
-
-                    <br/>
-                    Respondent/Solicitor for the respondent (signature):
-                    <input name="respondent-solicitor" value="electronicaly submitted"/>
 
                 </div>
 
